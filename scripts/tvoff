@@ -1,0 +1,2 @@
+# Send Power OFF button
+irsend SEND_ONCE vizio72_discrete KEY_POWEROFF

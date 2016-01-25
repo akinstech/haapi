@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ -n "$2" ]; then
+	echo "Pausing for up to $2 seconds..."
+	UPPER="$2"
+
+	rnd=$RANDOM
+	let "rnd %=$UPPER"
+
+	sleep $rnd
+fi
+
+curl -H "Content-Type: application/json" http://localhost:1337$1

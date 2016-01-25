@@ -1,0 +1,13 @@
+#!/bin/bash
+UPPER="$1"
+
+rnd=$RANDOM
+let "rnd %=$UPPER"
+
+sleep $rnd
+echo "Done.."
+
+
+
+
+

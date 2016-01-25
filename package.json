@@ -1,0 +1,18 @@
+{
+  "name": "haapi",
+  "version": "0.1.13",
+  "description": "HAAPI - Home Automation API",
+  "main": "app.js",
+  "dependencies": {
+    "log4js": "^0.6.26",
+    "moment": "^2.10.6",
+    "wake_on_lan": "^0.0.4",
+    "net-ping": "^1.1.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AkinsTech",
+  "license": "ISC"
+}

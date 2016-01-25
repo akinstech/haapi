@@ -1,0 +1,13 @@
+{
+	"Version"		: "0.1.13",
+	"listenerIP"		: "0.0.0.0",
+	"listenerPort"		: "1337",
+
+	"scriptsDir"		: "./scripts/",
+	"logfile"		: "log/haapi.log",
+
+	"checkinThreshold"	: 600
+
+
+	
+}

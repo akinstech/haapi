@@ -1,0 +1,14 @@
+# Start lirc daemon
+# /etc/init.d/lirc start
+
+# Turn on TV
+echo Sending Power ON
+irsend SEND_ONCE vizio72_discrete KEY_POWERON 
+
+echo Waiting 20 seconds...
+sleep 15
+
+# Set Input to TV
+echo Changing Input to Antenna
+irsend SEND_ONCE vizio72_discrete KEY_INPUT_HDMI1
+

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#forever stop /opt/haapi/app.js
+cp -r /home/haapi/source/* /opt/haapi
+forever restart /opt/haapi/app.js
+
