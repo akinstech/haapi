@@ -1,0 +1,2 @@
+# haapi
+Home Automation API
